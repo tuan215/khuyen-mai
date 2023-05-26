@@ -21,6 +21,10 @@ body {
     font-family: Quicksand;
     color: #253D4E;
 }
+.swipe{
+    display: flex;
+    justify-content: center;
+}
 .swipe-text{
     font-size: 32px;
 }
@@ -41,9 +45,9 @@ body {
     justify-content: space-between;
 }
 
-.swipe {
+.swipe-1 {
     width: 1130px;
-    overflow-x: auto;
+    overflow: hidden;
     height: 600px;
     position: relative;
     transition: all 500ms ease;
@@ -248,13 +252,13 @@ body {
 .icon-left {
     left: 15px;
     z-index: 4;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .icon-right {
     right: 5px;
     z-index: 4;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .icon-arrow {
